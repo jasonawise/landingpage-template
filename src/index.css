@@ -4,7 +4,10 @@
 @tailwind utilities;
 
 @layer base {
+  h1, h2, p {
+    @apply leading-normal
+  }
   h1 {
-    @apply text-5xl
+    @apply text-4xl;
   }
 }
