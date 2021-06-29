@@ -1,8 +1,8 @@
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <p>BLAH</p>
+    <div className="flex sm:flex-col items-center">
+      <div>CTA</div>
+      <div>Form</div>
     </div>
   );
 }
