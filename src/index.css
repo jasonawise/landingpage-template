@@ -9,4 +9,10 @@
   h1 {
     @apply text-4xl;
   }
+  input {
+    @apply p-1 pl-2 text-sm border border-solid
+  }
+  button {
+    @apply border border-solid
+  }
 }

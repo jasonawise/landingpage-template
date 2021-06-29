@@ -1,4 +1,5 @@
 import CallToAction from './Components/CallToAction';
+import Form from './Components/Form';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
         heading="I am the call to action"
         content="Sign Up For My Newsletter"
       />
-      <div>Form</div>
+      <Form />
     </div>
   );
 }
